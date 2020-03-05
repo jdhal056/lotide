@@ -37,3 +37,6 @@ const assertArraysEqual = function(array1, array2) {
     console.log(`🛑️ Assertion Failed: ${array1} !== ${array2}`);
   }
 };
+
+assertArraysEqual(results1, [1,2,5,7,2]);
+assertArraysEqual(results2, ["I\'ve", "been", "to", "Hollywood"]);
